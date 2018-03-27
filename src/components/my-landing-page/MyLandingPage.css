@@ -11,3 +11,31 @@
     #fc00ff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s
+    infinite;
+}
+
+.rotating-text {
+  font-size: 2em;
+  vertical-align: bottom;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.header-image {
+  background-image: url("../../utils/lego-cropped.jpg");
+  width: 100%;
+  height: 200px;
+}

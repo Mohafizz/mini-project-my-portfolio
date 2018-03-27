@@ -1,9 +1,18 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import {
+  Grid,
+  Cell,
+  Layout,
+  Header,
+  Navigation,
+  Drawer,
+  Content
+} from "react-mdl";
 import AppRouter from "../app-router/AppRouter";
 import "./MyLandingPage.css";
 import MyFooter from "../footer/footer";
+var ReactRotatingText = require("react-rotating-text");
 
 class MyLandingPage extends Component {
   render() {
@@ -11,6 +20,11 @@ class MyLandingPage extends Component {
       <div className="demo-big-content">
         <Layout>
           <Header className="header-color" title="Mohamed Hafiz" scroll>
+            <ReactRotatingText
+              className="rotating-text"
+              color="orange"
+              items={["Reset...", "Relearn...", "Reprogram..."]}
+            />
             <Navigation>
               <Link to="/about-me">About me</Link>
               <Link to="/resume">Resume</Link>
@@ -26,12 +40,11 @@ class MyLandingPage extends Component {
               <Link to="/skills">Skills</Link>
             </Navigation>
           </Drawer>
+
           <Content>
-            <div className="page-content" />
-            <div>
-              <AppRouter />
-              <MyFooter />
-            </div>
+            <div className="header-image" />
+            <AppRouter />
+            <MyFooter />
           </Content>
         </Layout>
       </div>
