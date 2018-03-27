@@ -1,33 +1,38 @@
 import React, { Component } from "react";
-import "./MyLandingPage.css";
+import { Link } from "react-router-dom";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import AppRouter from "../app-router/AppRouter";
+import MyNewSkillsRadarChart from "../my-skills-radar-chart/MyNewSkillsRadarChart";
+import MyOldSkillsRadarChart from "../my-skills-radar-chart/MyOldSkillsRadarChart";
+import "./MyLandingPage.css";
 
 class MyLandingPage extends Component {
   render() {
     return (
-      <div style={{ height: "500px", position: "relative" }}>
-        <Layout
-          style={{
-            backgroundColor: "cyan"
-          }}
-        >
-          <Header transparent title="Mohamed Hafiz" style={{ color: "white" }}>
+      <div className="demo-big-content">
+        <Layout>
+          <Header title="Mohamed Hafiz" scroll>
             <Navigation>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
+              <Link to="/about-me">About me</Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/projects">Projects</Link>
             </Navigation>
           </Header>
           <Drawer title="My portfolio">
             <Navigation>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
+              <Link to="/about-me">About me</Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/projects">Projects</Link>
             </Navigation>
           </Drawer>
-          <Content />
+          <Content>
+            <div className="page-content" />
+            <div>
+              <AppRouter />
+              <MyOldSkillsRadarChart />
+              <MyNewSkillsRadarChart />
+            </div>
+          </Content>
         </Layout>
       </div>
     );
