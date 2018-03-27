@@ -1,18 +1,35 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div style={{ height: "300px", position: "relative" }}>
+        <Layout
+          style={{
+            background:
+              "url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover"
+          }}
+        >
+          <Header transparent title="Title" style={{ color: "white" }}>
+            <Navigation>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
+            </Navigation>
+          </Header>
+          <Drawer title="Title">
+            <Navigation>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
+              <a href="/">Link</a>
+            </Navigation>
+          </Drawer>
+          <Content />
+        </Layout>
       </div>
     );
   }
