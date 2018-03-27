@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import "./Resume.css";
-
-const propTypes = {};
 
 class Resume extends Component {
   render() {
@@ -13,7 +10,5 @@ class Resume extends Component {
     );
   }
 }
-
-Resume.propTypes = propTypes;
 
 export default Resume;

@@ -1,9 +1,5 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import "./Projects.css";
-
-const propTypes = {};
-
 class Projects extends Component {
   render() {
     return (
@@ -13,7 +9,5 @@ class Projects extends Component {
     );
   }
 }
-
-Projects.propTypes = propTypes;
 
 export default Projects;
