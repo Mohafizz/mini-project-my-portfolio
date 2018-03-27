@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./MyLandingPage.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import MySkillsRadarChart from "./MySkillsRadarChart";
 
 class MyLandingPage extends Component {
   render() {
@@ -34,7 +33,6 @@ class MyLandingPage extends Component {
           </Drawer>
           <Content />
         </Layout>
-        <MySkillsRadarChart />
       </div>
     );
   }
