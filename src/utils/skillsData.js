@@ -1,8 +1,17 @@
-export const data = [
-  { subject: "A", A: 10, B: 10, fullMark: 150 },
-  { subject: "B", A: 98, B: 130, fullMark: 150 },
-  { subject: "C", A: 86, B: 130, fullMark: 150 },
-  { subject: "D", A: 99, B: 100, fullMark: 150 },
-  { subject: "E", A: 85, B: 90, fullMark: 150 },
-  { subject: "F", A: 65, B: 85, fullMark: 150 }
+export const oldSkillsData = [
+  { subject: "A", A: 10, fullMark: 10 },
+  { subject: "B", A: 9, fullMark: 10 },
+  { subject: "C", A: 8, fullMark: 10 },
+  { subject: "D", A: 9, fullMark: 10 },
+  { subject: "E", A: 8, fullMark: 10 },
+  { subject: "F", A: 6, fullMark: 10 }
+];
+
+export const newSkillsData = [
+  { subject: "A", B: 10, fullMark: 10 },
+  { subject: "B", B: 9, fullMark: 10 },
+  { subject: "C", B: 8, fullMark: 10 },
+  { subject: "D", B: 9, fullMark: 10 },
+  { subject: "E", B: 8, fullMark: 10 },
+  { subject: "F", B: 6, fullMark: 10 }
 ];

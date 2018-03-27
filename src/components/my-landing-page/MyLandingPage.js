@@ -11,11 +11,7 @@ class MyLandingPage extends Component {
             backgroundColor: "cyan"
           }}
         >
-          <Header
-            transparent="false"
-            title="Mohamed Hafiz"
-            style={{ color: "white" }}
-          >
+          <Header transparent title="Mohamed Hafiz" style={{ color: "white" }}>
             <Navigation>
               <a href="/">Link</a>
               <a href="/">Link</a>

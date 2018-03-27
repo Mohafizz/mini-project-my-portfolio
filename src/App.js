@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 import "./App.css";
 import MyLandingPage from "./components/my-landing-page/MyLandingPage";
-import MySkillsRadarChart from "./components/my-skills-radar-chart/MySkillsRadarChart";
+import MyNewSkillsRadarChart from "./components/my-skills-radar-chart/MyNewSkillsRadarChart";
+import MyOldSkillsRadarChart from "./components/my-skills-radar-chart/MyOldSkillsRadarChart";
 
 class App extends Component {
   render() {
     return (
       <div>
         <MyLandingPage />
-        <MySkillsRadarChart />
+        <MyOldSkillsRadarChart />
+        <MyNewSkillsRadarChart />
       </div>
     );
   }
