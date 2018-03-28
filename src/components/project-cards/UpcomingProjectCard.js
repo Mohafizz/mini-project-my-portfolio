@@ -27,7 +27,7 @@ const UpcomingProjectCard = () => {
                   backgroundSize: "200px"
                 }}
               />
-              <CardText>Upcoming project. More to go!</CardText>
+              <CardText>Upcoming project. More to come!</CardText>
               <CardActions border>
                 <Button colored>View Updates</Button>
               </CardActions>
