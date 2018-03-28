@@ -1,14 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import {
-  Grid,
-  Cell,
-  Layout,
-  Header,
-  Navigation,
-  Drawer,
-  Content
-} from "react-mdl";
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import AppRouter from "../app-router/AppRouter";
 import "./MyLandingPage.css";
 import MyFooter from "../footer/footer";
