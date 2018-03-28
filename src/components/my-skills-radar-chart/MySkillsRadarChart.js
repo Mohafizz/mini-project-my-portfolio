@@ -28,13 +28,13 @@ const MySkillsRadarChart = () => (
             <Radar
               name="Old Skills"
               dataKey="A"
-              stroke="#ffc802"
-              fill="#ffc802"
-              fillOpacity={0.8}
+              stroke="#ff8811"
+              fill="#ff8811"
+              fillOpacity={1.0}
             />
             <PolarGrid gridType="polygon" />
             <PolarAngleAxis dataKey="subject" />
-            <PolarRadiusAxis angle={30} domain={[0, 10]} />
+            <PolarRadiusAxis scale="linear" angle={30} domain={[0, 10]} />
           </RadarChart>
         </Cell>
         <Cell col={6}>
@@ -56,7 +56,7 @@ const MySkillsRadarChart = () => (
             />
             <PolarGrid gridType="polygon" />
             <PolarAngleAxis dataKey="subject" />
-            <PolarRadiusAxis angle={30} domain={[0, 10]} />
+            <PolarRadiusAxis scale="linear" angle={30} domain={[0, 10.0]} />
           </RadarChart>
         </Cell>
       </Grid>

@@ -5,7 +5,7 @@ const MyFooter = () => {
   return (
     <div>
       <Footer size="mini">
-        <FooterSection type="left" logo="Title">
+        <FooterSection type="middle" logo="Hello">
           <FooterLinkList>
             <a href="/">Help</a>
             <a href="/">Privacy & Terms</a>
