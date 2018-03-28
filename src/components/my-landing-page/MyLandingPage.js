@@ -34,7 +34,13 @@ class MyLandingPage extends Component {
           </Drawer>
 
           <Content>
-            <div className="header-image" />
+            <div
+              className="header-image"
+              style={{
+                background:
+                  "url(Images/lego-cropped.jpg) right no-repeat #4BBCE3"
+              }}
+            />
             <AppRouter />
             <MyFooter />
           </Content>

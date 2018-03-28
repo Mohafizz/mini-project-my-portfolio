@@ -10,13 +10,13 @@ class Projects extends Component {
       <div>
         <div style={{ width: "100%", margin: "auto" }}>
           <Grid className="projects-grid">
-            <Cell col={4}>
+            <Cell col={4} tablet={6}>
               <HtmlCssBlogCard />
             </Cell>
-            <Cell col={4}>
+            <Cell col={4} tablet={6}>
               <TodoListCard />
             </Cell>
-            <Cell col={4}>
+            <Cell col={4} tablet={6}>
               <UpcomingProjectCard />
             </Cell>
           </Grid>
