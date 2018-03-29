@@ -25,9 +25,7 @@ class WeatherApp extends Component {
           Yishun:
           <div>
             {this.state.forecasts.map((forecast, i) => {
-              if (forecast.area === "Yishun") {
-                return forecast.forecast;
-              }
+              return forecast.area === "Yishun" ? forecast.forecast : null;
             })}
           </div>
         </div>
@@ -38,9 +36,7 @@ class WeatherApp extends Component {
         City:
         <div>
           {this.state.forecasts.map((forecast, i) => {
-            if (forecast.area === "City") {
-              return forecast.forecast;
-            }
+            return forecast.area === "City" ? forecast.forecast : null;
           })}
         </div>
       </div>
