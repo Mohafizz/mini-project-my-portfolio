@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import "react-mdl/extra/material.js";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import AppRouter from "../app-router/AppRouter";
 import "./MyLandingPage.css";
 import MyFooter from "../footer/footer";
 import WeatherApp from "../weather-app/WeatherApp";
-var ReactRotatingText = require("react-rotating-text");
+import ReactRotatingText from "react-rotating-text";
 
 class MyLandingPage extends Component {
   render() {
@@ -42,7 +43,7 @@ class MyLandingPage extends Component {
                   "url(Images/lego-cropped.jpg) right no-repeat #4BBCE3"
               }}
             />
-            <WeatherApp />
+            {/* <WeatherApp /> */}
             <AppRouter />
             <MyFooter />
           </Content>
