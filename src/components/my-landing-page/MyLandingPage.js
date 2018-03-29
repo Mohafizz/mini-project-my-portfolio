@@ -43,7 +43,7 @@ class MyLandingPage extends Component {
                   "url(Images/lego-cropped.jpg) right no-repeat #4BBCE3"
               }}
             />
-            {/* <WeatherApp /> */}
+            <WeatherApp />
             <AppRouter />
             <MyFooter />
           </Content>

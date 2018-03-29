@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Tabs, Tab } from "react-mdl";
+import fetch from "isomorphic-fetch";
 
 class WeatherApp extends Component {
   constructor(props) {
@@ -15,6 +16,7 @@ class WeatherApp extends Component {
       "https://api.data.gov.sg/v1/environment/2-hour-weather-forecast"
     );
     const data = await api_call.json();
+    console.log("data: ", data);
     this.setState({ forecasts: data.items[0].forecasts });
   }
 
