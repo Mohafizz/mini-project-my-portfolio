@@ -1,9 +1,14 @@
 import React, { Component } from "react";
+import { Tabs, Tab } from "react-mdl";
 
 class WeatherApp extends Component {
-  state = {
-    forecasts: []
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeTab: 0,
+      forecasts: []
+    };
+  }
 
   async componentDidMount() {
     const api_call = await fetch(
@@ -13,17 +18,47 @@ class WeatherApp extends Component {
     this.setState({ forecasts: data.items[0].forecasts });
   }
 
-  render() {
+  toggleCategories() {
+    if (this.state.activeTab === 0) {
+      return (
+        <div>
+          Yishun:
+          <div>
+            {this.state.forecasts.map((forecast, i) => {
+              if (forecast.area === "Yishun") {
+                return forecast.forecast;
+              }
+            })}
+          </div>
+        </div>
+      );
+    }
     return (
       <div>
-        {this.state.forecasts.map((forecast, i) => {
-          return (
-            <div>
-              {i + 1 + ")"} {forecast.area + " "}
-              {forecast.forecast}
-            </div>
-          );
-        })}
+        City:
+        <div>
+          {this.state.forecasts.map((forecast, i) => {
+            if (forecast.area === "City") {
+              return forecast.forecast;
+            }
+          })}
+        </div>
+      </div>
+    );
+  }
+
+  render() {
+    return (
+      <div className="weather-location-tabs">
+        <Tabs
+          activeTab={this.state.activeTab}
+          onChange={tabId => this.setState({ activeTab: tabId })}
+          ripple
+        >
+          <Tab>Home</Tab>
+          <Tab>ThoughtWorks</Tab>
+        </Tabs>
+        <section>{this.toggleCategories()}</section>
       </div>
     );
   }
