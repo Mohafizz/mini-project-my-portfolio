@@ -27,9 +27,19 @@ const UpcomingProjectCard = () => {
                   backgroundSize: "200px"
                 }}
               />
-              <CardText>Upcoming project. More to come!</CardText>
+              <CardText>
+                Upcoming project. More to come! <br /> Click button below to
+                view my github repo.
+              </CardText>
               <CardActions border>
-                <Button colored>View Updates</Button>
+                <Button
+                  raised
+                  accent
+                  href="https://github.com/Mohafizz"
+                  target="blank"
+                >
+                  My github repo
+                </Button>
               </CardActions>
             </Card>
           </Cell>

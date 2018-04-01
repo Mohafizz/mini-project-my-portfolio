@@ -33,7 +33,14 @@ const HtmlCssBlogCard = () => {
                 Github.
               </CardText>
               <CardActions border>
-                <Button colored>View Updates</Button>
+                <Button
+                  raised
+                  colored
+                  href="https://mohafizz.github.io/html_css/"
+                  target="blank"
+                >
+                  View Updates
+                </Button>
               </CardActions>
             </Card>
           </Cell>

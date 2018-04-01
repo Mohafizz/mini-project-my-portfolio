@@ -33,7 +33,14 @@ const TodoListCard = () => {
                 integration with Travis CI and hosted in Heroku.
               </CardText>
               <CardActions border>
-                <Button colored>View Updates</Button>
+                <Button
+                  raised
+                  colored
+                  href="https://mohafizz-react-todolist.herokuapp.com/"
+                  target="blank"
+                >
+                  View Updates
+                </Button>
               </CardActions>
             </Card>
           </Cell>

@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { Tabs, Tab } from "react-mdl";
 import fetch from "isomorphic-fetch";
+import "./WeatherApp.css";
 
 class WeatherApp extends Component {
   constructor(props) {
+    console.log();
     super(props);
     this.state = {
       activeTab: 0,
@@ -24,8 +26,9 @@ class WeatherApp extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div>
-          Yishun:
+          Yishun area:
           <div>
+            <br />
             {this.state.forecasts.map((forecast, i) => {
               return forecast.area === "Yishun" ? forecast.forecast : null;
             })}
@@ -35,8 +38,9 @@ class WeatherApp extends Component {
     }
     return (
       <div>
-        City:
+        City area:
         <div>
+          <br />
           {this.state.forecasts.map((forecast, i) => {
             return forecast.area === "City" ? forecast.forecast : null;
           })}
@@ -56,7 +60,9 @@ class WeatherApp extends Component {
           <Tab>Home</Tab>
           <Tab>ThoughtWorks</Tab>
         </Tabs>
+        <br />
         <section>{this.toggleCategories()}</section>
+        <br />
       </div>
     );
   }
