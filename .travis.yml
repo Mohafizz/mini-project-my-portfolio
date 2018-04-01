@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '9'
+cache:
+  directories:
+  - node_modules
+script:
+- yarn test
+- yarn build
+deploy:
+  provider: heroku
+  app: mohafizz-my-portfolio
+  on:
+    repo: Mohafizz/mini-project-my-portfolio
+  api_key:
+    secure: TD0iJSBnwdIG7IPtcQox4iJvfYJ9FVjNwDMaijx5LJkdIc3UPBLSRUF+O0sf2evvdKDGzKHMxubqH39Kyj5Wu7teFTfDkC6H9igwtVeyd4bu02N3Qn4R/jMX/h4w3o+2BKLGB+gRu6zIl7gb0UzQQ9IWWqcjN4ksWV0vAqE2sIGTRa+C3W1yiXV2d4GVZ2Y9Ihs8G9lUyClL5KpyIy+969v84oUQTSi+8WIkHNGpi2jMvqfQU7Rt3UPhJ3bepvgP+AEHqHwiltTG15//D3MjfXWiEfU+ziilvb6l5dC5uXL9ItvMxW/onp/Xsn3kNV0QhdjUEo+/BbUdp17561zebOFDlLcZgBFJG/ACNEyKXqbmRnbZF+EC41M5zugZxf4/awTdMUusBA58UZpuJLYM3QQiqxm+cxB0iMhZm4Qq3WRSzwwCvBz2/To2PITZKIItGOYGQOvqW5UbOGCwrMJOwF1j49lKtcOa0kAr+eZVQ5CmeGiyEdSPRAU+ch9RYY8KRy77ArWRMLSQJBdAakHIZ1NcWstaephka4UkeFiFQrkR/INBbPwGR5DmKRRpf4sVcejg111yFO3gsnzLCeEwWdQwRfK9luGXTAWgTwY3vxKLskwiTlLimfK3ym2Th1F88SRykrgoatGPDPy0scBQYaMUqYgDLnBv7V7RkVr5RQA=
