@@ -1,0 +1,16 @@
+.homepage-avatar {
+  float: right;
+  height: 100%;
+  width: auto;
+  border-radius: 50%;
+  margin-right: 50px;
+  padding: 10px;
+}
+
+.homepage-text {
+  background-color: aliceblue;
+  padding: 20px;
+  font-family: "Muli", sans-serif;
+  text-align: left;
+  float: left;
+}
