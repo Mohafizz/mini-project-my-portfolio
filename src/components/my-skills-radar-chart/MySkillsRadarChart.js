@@ -16,7 +16,7 @@ const MySkillsRadarChart = () => (
     <div style={{ width: "100%", margin: "auto" }}>
       <Grid className="skills-grid">
         <Cell col={6}>
-          <h3>My Old Skills</h3>
+          <h3>My Past Skills</h3>
           <RadarChart
             cx={300}
             cy={250}

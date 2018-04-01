@@ -10,7 +10,7 @@ export const oldSkillsData = [
 export const newSkillsData = [
   { subject: "Test Driven Development", B: 6, fullMark: 10 },
   { subject: "Javascript", B: 6, fullMark: 10 },
-  { subject: "Agile Approach", B: 8, fullMark: 10 },
+  { subject: "Agile Methodologies", B: 8, fullMark: 10 },
   { subject: "Project Management", B: 7, fullMark: 10 },
   { subject: "Problem Solving", B: 8, fullMark: 10 },
   { subject: "Troubleshooting", B: 6, fullMark: 10 }

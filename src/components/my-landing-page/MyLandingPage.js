@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "react-mdl/extra/material.js";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import {
+  IconButton,
+  Layout,
+  Header,
+  Navigation,
+  Drawer,
+  Content
+} from "react-mdl";
 import AppRouter from "../app-router/AppRouter";
 import "./MyLandingPage.css";
 import MyFooter from "../footer/footer";
@@ -12,12 +19,17 @@ class MyLandingPage extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header className="landing-header-color" title="Mohamed Hafiz" scroll>
+          <Header
+            className="landing-header-color"
+            title="Mohamed Hafiz Bin Abu Bakar"
+            scroll
+          >
             <ReactRotatingText
               className="rotating-text"
               color="orange"
               items={["Reset...", "Relearn...", "Reprogram..."]}
             />
+            <IconButton name="home" href="/" />
             <Navigation>
               <Link to="/weather-app">Weather App</Link>
               <Link to="/projects">Projects</Link>
@@ -26,6 +38,7 @@ class MyLandingPage extends Component {
           </Header>
           <Drawer title="My portfolio">
             <Navigation>
+              <Link to="/">Home page</Link>
               <Link to="/weather-app">Weather App</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/skills">Skills</Link>
