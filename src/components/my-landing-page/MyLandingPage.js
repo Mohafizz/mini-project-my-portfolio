@@ -5,7 +5,6 @@ import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import AppRouter from "../app-router/AppRouter";
 import "./MyLandingPage.css";
 import MyFooter from "../footer/footer";
-import WeatherApp from "../weather-app/WeatherApp";
 import ReactRotatingText from "react-rotating-text";
 
 class MyLandingPage extends Component {
@@ -13,23 +12,21 @@ class MyLandingPage extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title="Mohamed Hafiz" scroll>
+          <Header className="landing-header-color" title="Mohamed Hafiz" scroll>
             <ReactRotatingText
               className="rotating-text"
               color="orange"
               items={["Reset...", "Relearn...", "Reprogram..."]}
             />
             <Navigation>
-              <Link to="/about-me">About me</Link>
-              <Link to="/resume">Resume</Link>
+              <Link to="/weather-app">Weather App</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/skills">Skills</Link>
             </Navigation>
           </Header>
           <Drawer title="My portfolio">
             <Navigation>
-              <Link to="/about-me">About me</Link>
-              <Link to="/resume">Resume</Link>
+              <Link to="/weather-app">Weather App</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/skills">Skills</Link>
             </Navigation>
@@ -43,7 +40,6 @@ class MyLandingPage extends Component {
                   "url(Images/lego-cropped.jpg) right no-repeat #4BBCE3"
               }}
             />
-            <WeatherApp />
             <AppRouter />
             <MyFooter />
           </Content>
