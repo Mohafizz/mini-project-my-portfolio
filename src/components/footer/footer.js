@@ -17,6 +17,11 @@ const MyFooter = () => {
             href="mailto:mohafizz@gmail.com"
             target="blank"
           />
+          Travis CI:
+          <img
+            src="https://travis-ci.org/Mohafizz/mini-project-my-portfolio.svg?branch=master"
+            alt="travis-ci"
+          />
         </FooterLinkList>
       </Footer>
     </div>
