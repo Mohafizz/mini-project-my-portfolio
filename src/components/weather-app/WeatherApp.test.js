@@ -4,7 +4,7 @@ import { shallow } from "enzyme";
 import WeatherApp from "./WeatherApp";
 
 describe("WeatherApp", () => {
-  it.only("should return status 200 with fetch mock data", async () => {
+  it.skip("should return status 200 with fetch mock data", async () => {
     const myMockFn = await fetchMock.mock(
       "https://api.data.gov.sg/v1/environment/2-hour-weather-forecast",
       {
