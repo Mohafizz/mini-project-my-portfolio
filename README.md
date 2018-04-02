@@ -4,9 +4,9 @@ This is a showcase of my new journey in web development as a Jumpstarter. In thi
 
 ## Snapshots of the web app
 
-####homepage
+##homepage
 
-<img src="./public/Images/app.jpg" alt="main" style="width: 300px;"/>
+<img src="./public/Images/app.jpg" alt="main" width="200"/>
 <br/><br/>
 
 #####app-drawer
