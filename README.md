@@ -4,7 +4,29 @@ This is a showcase of my new journey in web development as a Jumpstarter. In thi
 
 ## Snapshots of the web app
 
-![alt test](./public/Images/app.jpg "Logo Title Text 1")
+#####homepage
+
+<img src="./public/Images/app.jpg" alt="main" style="width: 300px;"/>
+<br/><br/>
+
+#####app-drawer
+To access the menu, click on the hamburger icon at the top left hand corner of the web app.
+<img src="./public/Images/drawer.jpg" alt="main" style="width: 300px;"/>
+<br/><br/>
+
+#####weather-app
+Shows the 2 hours realtime weather data from data.gov.sg API.
+<img src="./public/Images/weather-app.jpg" alt="main" style="width: 500px;"/>
+<br/><br/>
+
+#####my-projects
+Showcase of my past and future projects.
+<img src="./public/Images/project-card.jpg" alt="main" style="width: 500px;"/>
+<br/><br/>
+
+#####my-skills
+Showcase of my past and current skills.<br/>
+<img src="./public/Images/skills.jpg" alt="main" style="width: 500px;"/>
 
 ## Getting Started
 
@@ -12,81 +34,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Steps to have the web app running on your local machine
 
 ```
-Give examples
+1) Fork the repo
+2) git clone https://github.com/Mohafizz/mini-project-my-portfolio.git
 ```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-* **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-  k# Project Title
-
-One Paragraph of project description goes here
