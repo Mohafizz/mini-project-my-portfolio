@@ -1,0 +1,1115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MyLandingPage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Layout>
+        <Header
+                className="landing-header-color"
+                scroll={true}
+                title="Mohamed Hafiz Bin Abu Bakar"
+        >
+                <ReactRotatingText
+                        className="rotating-text"
+                        color="orange"
+                        cursor={true}
+                        deletingInterval={50}
+                        emptyPause={1000}
+                        eraseMode="erase"
+                        items={
+                                Array [
+                                        "Reset...",
+                                        "Relearn...",
+                                        "Reprogram...",
+                                      ]
+                        }
+                        pause={1500}
+                        typingInterval={50}
+                />
+                <IconButton
+                        href="/"
+                        name="home"
+                />
+                <Navigation>
+                        <Link
+                                replace={false}
+                                to="/weather-app"
+                        >
+                                Weather App
+                        </Link>
+                        <Link
+                                replace={false}
+                                to="/projects"
+                        >
+                                Projects
+                        </Link>
+                        <Link
+                                replace={false}
+                                to="/skills"
+                        >
+                                Skills
+                        </Link>
+                </Navigation>
+        </Header>
+        <Drawer
+                title="My portfolio"
+        >
+                <Navigation>
+                        <Link
+                                replace={false}
+                                to="/"
+                        >
+                                Home page
+                        </Link>
+                        <Link
+                                replace={false}
+                                to="/weather-app"
+                        >
+                                Weather App
+                        </Link>
+                        <Link
+                                replace={false}
+                                to="/projects"
+                        >
+                                Projects
+                        </Link>
+                        <Link
+                                replace={false}
+                                to="/skills"
+                        >
+                                Skills
+                        </Link>
+                </Navigation>
+        </Drawer>
+        <Content>
+                <div
+                        className="header-image"
+                        style={
+                                Object {
+                                        "background": "url(Images/lego-cropped.jpg) right no-repeat #4BBCE3",
+                                      }
+                        }
+                />
+                <AppRouter />
+                <MyFooter />
+        </Content>
+</Layout>,
+      "className": "demo-big-content",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Header
+            className="landing-header-color"
+            scroll={true}
+            title="Mohamed Hafiz Bin Abu Bakar"
+>
+            <ReactRotatingText
+                        className="rotating-text"
+                        color="orange"
+                        cursor={true}
+                        deletingInterval={50}
+                        emptyPause={1000}
+                        eraseMode="erase"
+                        items={
+                                    Array [
+                                                "Reset...",
+                                                "Relearn...",
+                                                "Reprogram...",
+                                              ]
+                        }
+                        pause={1500}
+                        typingInterval={50}
+            />
+            <IconButton
+                        href="/"
+                        name="home"
+            />
+            <Navigation>
+                        <Link
+                                    replace={false}
+                                    to="/weather-app"
+                        >
+                                    Weather App
+                        </Link>
+                        <Link
+                                    replace={false}
+                                    to="/projects"
+                        >
+                                    Projects
+                        </Link>
+                        <Link
+                                    replace={false}
+                                    to="/skills"
+                        >
+                                    Skills
+                        </Link>
+            </Navigation>
+</Header>,
+          <Drawer
+            title="My portfolio"
+>
+            <Navigation>
+                        <Link
+                                    replace={false}
+                                    to="/"
+                        >
+                                    Home page
+                        </Link>
+                        <Link
+                                    replace={false}
+                                    to="/weather-app"
+                        >
+                                    Weather App
+                        </Link>
+                        <Link
+                                    replace={false}
+                                    to="/projects"
+                        >
+                                    Projects
+                        </Link>
+                        <Link
+                                    replace={false}
+                                    to="/skills"
+                        >
+                                    Skills
+                        </Link>
+            </Navigation>
+</Drawer>,
+          <Content>
+            <div
+                        className="header-image"
+                        style={
+                                    Object {
+                                                "background": "url(Images/lego-cropped.jpg) right no-repeat #4BBCE3",
+                                              }
+                        }
+            />
+            <AppRouter />
+            <MyFooter />
+</Content>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ReactRotatingText
+                className="rotating-text"
+                color="orange"
+                cursor={true}
+                deletingInterval={50}
+                emptyPause={1000}
+                eraseMode="erase"
+                items={
+                                Array [
+                                                "Reset...",
+                                                "Relearn...",
+                                                "Reprogram...",
+                                              ]
+                }
+                pause={1500}
+                typingInterval={50}
+/>,
+              <IconButton
+                href="/"
+                name="home"
+/>,
+              <Navigation>
+                <Link
+                                replace={false}
+                                to="/weather-app"
+                >
+                                Weather App
+                </Link>
+                <Link
+                                replace={false}
+                                to="/projects"
+                >
+                                Projects
+                </Link>
+                <Link
+                                replace={false}
+                                to="/skills"
+                >
+                                Skills
+                </Link>
+</Navigation>,
+            ],
+            "className": "landing-header-color",
+            "scroll": true,
+            "title": "Mohamed Hafiz Bin Abu Bakar",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "rotating-text",
+                "color": "orange",
+                "cursor": true,
+                "deletingInterval": 50,
+                "emptyPause": 1000,
+                "eraseMode": "erase",
+                "items": Array [
+                  "Reset...",
+                  "Relearn...",
+                  "Reprogram...",
+                ],
+                "pause": 1500,
+                "typingInterval": 50,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "href": "/",
+                "name": "home",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Link
+                    replace={false}
+                    to="/weather-app"
+>
+                    Weather App
+</Link>,
+                  <Link
+                    replace={false}
+                    to="/projects"
+>
+                    Projects
+</Link>,
+                  <Link
+                    replace={false}
+                    to="/skills"
+>
+                    Skills
+</Link>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Weather App",
+                    "replace": false,
+                    "to": "/weather-app",
+                  },
+                  "ref": null,
+                  "rendered": "Weather App",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Projects",
+                    "replace": false,
+                    "to": "/projects",
+                  },
+                  "ref": null,
+                  "rendered": "Projects",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Skills",
+                    "replace": false,
+                    "to": "/skills",
+                  },
+                  "ref": null,
+                  "rendered": "Skills",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Navigation>
+              <Link
+                            replace={false}
+                            to="/"
+              >
+                            Home page
+              </Link>
+              <Link
+                            replace={false}
+                            to="/weather-app"
+              >
+                            Weather App
+              </Link>
+              <Link
+                            replace={false}
+                            to="/projects"
+              >
+                            Projects
+              </Link>
+              <Link
+                            replace={false}
+                            to="/skills"
+              >
+                            Skills
+              </Link>
+</Navigation>,
+            "title": "My portfolio",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <Link
+                  replace={false}
+                  to="/"
+>
+                  Home page
+</Link>,
+                <Link
+                  replace={false}
+                  to="/weather-app"
+>
+                  Weather App
+</Link>,
+                <Link
+                  replace={false}
+                  to="/projects"
+>
+                  Projects
+</Link>,
+                <Link
+                  replace={false}
+                  to="/skills"
+>
+                  Skills
+</Link>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Home page",
+                  "replace": false,
+                  "to": "/",
+                },
+                "ref": null,
+                "rendered": "Home page",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Weather App",
+                  "replace": false,
+                  "to": "/weather-app",
+                },
+                "ref": null,
+                "rendered": "Weather App",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Projects",
+                  "replace": false,
+                  "to": "/projects",
+                },
+                "ref": null,
+                "rendered": "Projects",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Skills",
+                  "replace": false,
+                  "to": "/skills",
+                },
+                "ref": null,
+                "rendered": "Skills",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <div
+                className="header-image"
+                style={
+                                Object {
+                                                "background": "url(Images/lego-cropped.jpg) right no-repeat #4BBCE3",
+                                              }
+                }
+/>,
+              <AppRouter />,
+              <MyFooter />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "header-image",
+                "style": Object {
+                  "background": "url(Images/lego-cropped.jpg) right no-repeat #4BBCE3",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Layout>
+          <Header
+                    className="landing-header-color"
+                    scroll={true}
+                    title="Mohamed Hafiz Bin Abu Bakar"
+          >
+                    <ReactRotatingText
+                              className="rotating-text"
+                              color="orange"
+                              cursor={true}
+                              deletingInterval={50}
+                              emptyPause={1000}
+                              eraseMode="erase"
+                              items={
+                                        Array [
+                                                  "Reset...",
+                                                  "Relearn...",
+                                                  "Reprogram...",
+                                                ]
+                              }
+                              pause={1500}
+                              typingInterval={50}
+                    />
+                    <IconButton
+                              href="/"
+                              name="home"
+                    />
+                    <Navigation>
+                              <Link
+                                        replace={false}
+                                        to="/weather-app"
+                              >
+                                        Weather App
+                              </Link>
+                              <Link
+                                        replace={false}
+                                        to="/projects"
+                              >
+                                        Projects
+                              </Link>
+                              <Link
+                                        replace={false}
+                                        to="/skills"
+                              >
+                                        Skills
+                              </Link>
+                    </Navigation>
+          </Header>
+          <Drawer
+                    title="My portfolio"
+          >
+                    <Navigation>
+                              <Link
+                                        replace={false}
+                                        to="/"
+                              >
+                                        Home page
+                              </Link>
+                              <Link
+                                        replace={false}
+                                        to="/weather-app"
+                              >
+                                        Weather App
+                              </Link>
+                              <Link
+                                        replace={false}
+                                        to="/projects"
+                              >
+                                        Projects
+                              </Link>
+                              <Link
+                                        replace={false}
+                                        to="/skills"
+                              >
+                                        Skills
+                              </Link>
+                    </Navigation>
+          </Drawer>
+          <Content>
+                    <div
+                              className="header-image"
+                              style={
+                                        Object {
+                                                  "background": "url(Images/lego-cropped.jpg) right no-repeat #4BBCE3",
+                                                }
+                              }
+                    />
+                    <AppRouter />
+                    <MyFooter />
+          </Content>
+</Layout>,
+        "className": "demo-big-content",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Header
+              className="landing-header-color"
+              scroll={true}
+              title="Mohamed Hafiz Bin Abu Bakar"
+>
+              <ReactRotatingText
+                            className="rotating-text"
+                            color="orange"
+                            cursor={true}
+                            deletingInterval={50}
+                            emptyPause={1000}
+                            eraseMode="erase"
+                            items={
+                                          Array [
+                                                        "Reset...",
+                                                        "Relearn...",
+                                                        "Reprogram...",
+                                                      ]
+                            }
+                            pause={1500}
+                            typingInterval={50}
+              />
+              <IconButton
+                            href="/"
+                            name="home"
+              />
+              <Navigation>
+                            <Link
+                                          replace={false}
+                                          to="/weather-app"
+                            >
+                                          Weather App
+                            </Link>
+                            <Link
+                                          replace={false}
+                                          to="/projects"
+                            >
+                                          Projects
+                            </Link>
+                            <Link
+                                          replace={false}
+                                          to="/skills"
+                            >
+                                          Skills
+                            </Link>
+              </Navigation>
+</Header>,
+            <Drawer
+              title="My portfolio"
+>
+              <Navigation>
+                            <Link
+                                          replace={false}
+                                          to="/"
+                            >
+                                          Home page
+                            </Link>
+                            <Link
+                                          replace={false}
+                                          to="/weather-app"
+                            >
+                                          Weather App
+                            </Link>
+                            <Link
+                                          replace={false}
+                                          to="/projects"
+                            >
+                                          Projects
+                            </Link>
+                            <Link
+                                          replace={false}
+                                          to="/skills"
+                            >
+                                          Skills
+                            </Link>
+              </Navigation>
+</Drawer>,
+            <Content>
+              <div
+                            className="header-image"
+                            style={
+                                          Object {
+                                                        "background": "url(Images/lego-cropped.jpg) right no-repeat #4BBCE3",
+                                                      }
+                            }
+              />
+              <AppRouter />
+              <MyFooter />
+</Content>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <ReactRotatingText
+                  className="rotating-text"
+                  color="orange"
+                  cursor={true}
+                  deletingInterval={50}
+                  emptyPause={1000}
+                  eraseMode="erase"
+                  items={
+                                    Array [
+                                                      "Reset...",
+                                                      "Relearn...",
+                                                      "Reprogram...",
+                                                    ]
+                  }
+                  pause={1500}
+                  typingInterval={50}
+/>,
+                <IconButton
+                  href="/"
+                  name="home"
+/>,
+                <Navigation>
+                  <Link
+                                    replace={false}
+                                    to="/weather-app"
+                  >
+                                    Weather App
+                  </Link>
+                  <Link
+                                    replace={false}
+                                    to="/projects"
+                  >
+                                    Projects
+                  </Link>
+                  <Link
+                                    replace={false}
+                                    to="/skills"
+                  >
+                                    Skills
+                  </Link>
+</Navigation>,
+              ],
+              "className": "landing-header-color",
+              "scroll": true,
+              "title": "Mohamed Hafiz Bin Abu Bakar",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "rotating-text",
+                  "color": "orange",
+                  "cursor": true,
+                  "deletingInterval": 50,
+                  "emptyPause": 1000,
+                  "eraseMode": "erase",
+                  "items": Array [
+                    "Reset...",
+                    "Relearn...",
+                    "Reprogram...",
+                  ],
+                  "pause": 1500,
+                  "typingInterval": 50,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "href": "/",
+                  "name": "home",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <Link
+                      replace={false}
+                      to="/weather-app"
+>
+                      Weather App
+</Link>,
+                    <Link
+                      replace={false}
+                      to="/projects"
+>
+                      Projects
+</Link>,
+                    <Link
+                      replace={false}
+                      to="/skills"
+>
+                      Skills
+</Link>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Weather App",
+                      "replace": false,
+                      "to": "/weather-app",
+                    },
+                    "ref": null,
+                    "rendered": "Weather App",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Projects",
+                      "replace": false,
+                      "to": "/projects",
+                    },
+                    "ref": null,
+                    "rendered": "Projects",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Skills",
+                      "replace": false,
+                      "to": "/skills",
+                    },
+                    "ref": null,
+                    "rendered": "Skills",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Navigation>
+                <Link
+                                replace={false}
+                                to="/"
+                >
+                                Home page
+                </Link>
+                <Link
+                                replace={false}
+                                to="/weather-app"
+                >
+                                Weather App
+                </Link>
+                <Link
+                                replace={false}
+                                to="/projects"
+                >
+                                Projects
+                </Link>
+                <Link
+                                replace={false}
+                                to="/skills"
+                >
+                                Skills
+                </Link>
+</Navigation>,
+              "title": "My portfolio",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Link
+                    replace={false}
+                    to="/"
+>
+                    Home page
+</Link>,
+                  <Link
+                    replace={false}
+                    to="/weather-app"
+>
+                    Weather App
+</Link>,
+                  <Link
+                    replace={false}
+                    to="/projects"
+>
+                    Projects
+</Link>,
+                  <Link
+                    replace={false}
+                    to="/skills"
+>
+                    Skills
+</Link>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Home page",
+                    "replace": false,
+                    "to": "/",
+                  },
+                  "ref": null,
+                  "rendered": "Home page",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Weather App",
+                    "replace": false,
+                    "to": "/weather-app",
+                  },
+                  "ref": null,
+                  "rendered": "Weather App",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Projects",
+                    "replace": false,
+                    "to": "/projects",
+                  },
+                  "ref": null,
+                  "rendered": "Projects",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Skills",
+                    "replace": false,
+                    "to": "/skills",
+                  },
+                  "ref": null,
+                  "rendered": "Skills",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="header-image"
+                  style={
+                                    Object {
+                                                      "background": "url(Images/lego-cropped.jpg) right no-repeat #4BBCE3",
+                                                    }
+                  }
+/>,
+                <AppRouter />,
+                <MyFooter />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "header-image",
+                  "style": Object {
+                    "background": "url(Images/lego-cropped.jpg) right no-repeat #4BBCE3",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
