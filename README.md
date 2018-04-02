@@ -2,6 +2,12 @@
 
 This is a showcase of my new journey in web development as a Jumpstarter. In this landing page, I include my new skills that I acquired, the projects that I am doing and links to my profile (linkedIn, email etc.)
 
+## Link to the heroku site
+
+```
+https://mohafizz-my-portfolio.herokuapp.com
+```
+
 ## Snapshots of the web app
 
 #### homepage
