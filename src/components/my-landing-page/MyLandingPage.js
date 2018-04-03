@@ -19,14 +19,15 @@ class MyLandingPage extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header
+          {/* Nice Navbar layout! */}
+          <Header 
             className="landing-header-color"
             title="Mohamed Hafiz Bin Abu Bakar"
             scroll
           >
             <ReactRotatingText
               className="rotating-text"
-              color="orange"
+              color="white"
               items={["Reset...", "Relearn...", "Reprogram..."]}
             />
             <IconButton name="home" href="/" />
@@ -45,6 +46,7 @@ class MyLandingPage extends Component {
             </Navigation>
           </Drawer>
 
+          {/* Header, Drawer, and Content should be refactored into 3 separate components, and MyLandingPage should be kept short and it should just stitch them together */}
           <Content>
             <div
               className="header-image"

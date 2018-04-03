@@ -6,6 +6,7 @@ import WeatherApp from "../weather-app/WeatherApp";
 import HomePage from "../home-page/HomePage";
 
 const AppRouter = () => {
+  // very nice! Short, clean and readable
   return (
     <Switch>
       <Route exact path="/" component={HomePage} />;

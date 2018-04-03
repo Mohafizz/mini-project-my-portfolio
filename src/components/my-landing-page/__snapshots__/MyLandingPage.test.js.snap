@@ -25,7 +25,7 @@ ShallowWrapper {
         >
                 <ReactRotatingText
                         className="rotating-text"
-                        color="orange"
+                        color="white"
                         cursor={true}
                         deletingInterval={50}
                         emptyPause={1000}
@@ -124,7 +124,7 @@ ShallowWrapper {
 >
             <ReactRotatingText
                         className="rotating-text"
-                        color="orange"
+                        color="white"
                         cursor={true}
                         deletingInterval={50}
                         emptyPause={1000}
@@ -218,7 +218,7 @@ ShallowWrapper {
             "children": Array [
               <ReactRotatingText
                 className="rotating-text"
-                color="orange"
+                color="white"
                 cursor={true}
                 deletingInterval={50}
                 emptyPause={1000}
@@ -270,7 +270,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "className": "rotating-text",
-                "color": "orange",
+                "color": "white",
                 "cursor": true,
                 "deletingInterval": 50,
                 "emptyPause": 1000,
@@ -571,7 +571,7 @@ ShallowWrapper {
           >
                     <ReactRotatingText
                               className="rotating-text"
-                              color="orange"
+                              color="white"
                               cursor={true}
                               deletingInterval={50}
                               emptyPause={1000}
@@ -670,7 +670,7 @@ ShallowWrapper {
 >
               <ReactRotatingText
                             className="rotating-text"
-                            color="orange"
+                            color="white"
                             cursor={true}
                             deletingInterval={50}
                             emptyPause={1000}
@@ -764,7 +764,7 @@ ShallowWrapper {
               "children": Array [
                 <ReactRotatingText
                   className="rotating-text"
-                  color="orange"
+                  color="white"
                   cursor={true}
                   deletingInterval={50}
                   emptyPause={1000}
@@ -816,7 +816,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "className": "rotating-text",
-                  "color": "orange",
+                  "color": "white",
                   "cursor": true,
                   "deletingInterval": 50,
                   "emptyPause": 1000,

@@ -1,53 +1,17 @@
 import React from "react";
-import {
-  CardTitle,
-  Card,
-  CardText,
-  CardActions,
-  Button,
-  Grid,
-  Cell
-} from "react-mdl";
+import ProjectCard from "./ProjectCard";
 
-const HtmlCssBlogCard = () => {
-  return (
-    <div>
-      <div style={{ width: "100%", margin: "auto" }}>
-        <Grid className="projects-grid">
-          <Cell col={4}>
-            <Card
-              shadow={0}
-              style={{ width: "320px", height: "320px", margin: "auto" }}
-            >
-              <CardTitle
-                expand
-                style={{
-                  color: "#fff",
-                  background:
-                    "url(Images/html-css-blog.jpg) center no-repeat #4BBCE3",
-                  backgroundSize: "200px"
-                }}
-              />
-              <CardText>
-                My first simple html and css blog page hosted using GH-Pages in
-                Github.
-              </CardText>
-              <CardActions border>
-                <Button
-                  raised
-                  colored
-                  href="https://mohafizz.github.io/html_css/"
-                  target="blank"
-                >
-                  View Updates
-                </Button>
-              </CardActions>
-            </Card>
-          </Cell>
-        </Grid>
-      </div>
-    </div>
-  );
-};
 
-export default HtmlCssBlogCard;
+/* the duplication in HtmlCssBlogCard, TodoListCard and UpcomingProjectCard suggests to us the repeated parts can be
+refactored into a single component. The parts which are different should be passed in as props
+
+I've refactored HtmlCssBlogCard.js for you into ProjectCard.js as an example, and replaced it in Projects.js
+You can continue refactoring Once that's refactored, you don't need to create a new javascript file everytime you want to create a new ProjectCard. */
+
+// const HtmlCssBlogCard = () => {
+//   return (
+    
+//   );
+// };
+
+// export default HtmlCssBlogCard;
