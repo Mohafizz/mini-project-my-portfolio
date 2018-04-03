@@ -15,7 +15,11 @@ class WeatherApp extends Component {
 
   async componentDidMount() {
     const api_call = await fetch(
-      "https://api.data.gov.sg/v1/environment/2-hour-weather-forecast"
+      "https://api.data.gov.sg/v1/environment/2-hour-weather-forecast",
+      {
+        mode: "cors"
+      }
+      // read more about why we need the CORS option here: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
     );
     const data = await api_call.json();
     // console.log("data: ", data);

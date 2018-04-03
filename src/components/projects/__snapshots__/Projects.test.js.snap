@@ -32,7 +32,10 @@ ShallowWrapper {
                         col={4}
                         tablet={6}
                 >
-                        <HtmlCssBlogCard />
+                        <ProjectCard
+                                imagePath="html-css-blog.jpg"
+                                projectUrl="https://mohafizz.github.io/html_css/"
+                        />
                 </Cell>
                 <Cell
                         col={4}
@@ -62,7 +65,10 @@ ShallowWrapper {
                     col={4}
                     tablet={6}
           >
-                    <HtmlCssBlogCard />
+                    <ProjectCard
+                              imagePath="html-css-blog.jpg"
+                              projectUrl="https://mohafizz.github.io/html_css/"
+                    />
           </Cell>
           <Cell
                     col={4}
@@ -93,7 +99,10 @@ ShallowWrapper {
               col={4}
               tablet={6}
 >
-              <HtmlCssBlogCard />
+              <ProjectCard
+                            imagePath="html-css-blog.jpg"
+                            projectUrl="https://mohafizz.github.io/html_css/"
+              />
 </Cell>,
             <Cell
               col={4}
@@ -117,7 +126,10 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": <HtmlCssBlogCard />,
+              "children": <ProjectCard
+                imagePath="html-css-blog.jpg"
+                projectUrl="https://mohafizz.github.io/html_css/"
+/>,
               "col": 4,
               "tablet": 6,
             },
@@ -126,7 +138,10 @@ ShallowWrapper {
               "instance": null,
               "key": undefined,
               "nodeType": "function",
-              "props": Object {},
+              "props": Object {
+                "imagePath": "html-css-blog.jpg",
+                "projectUrl": "https://mohafizz.github.io/html_css/",
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],
@@ -203,7 +218,10 @@ ShallowWrapper {
                               col={4}
                               tablet={6}
                     >
-                              <HtmlCssBlogCard />
+                              <ProjectCard
+                                        imagePath="html-css-blog.jpg"
+                                        projectUrl="https://mohafizz.github.io/html_css/"
+                              />
                     </Cell>
                     <Cell
                               col={4}
@@ -233,7 +251,10 @@ ShallowWrapper {
                         col={4}
                         tablet={6}
             >
-                        <HtmlCssBlogCard />
+                        <ProjectCard
+                                    imagePath="html-css-blog.jpg"
+                                    projectUrl="https://mohafizz.github.io/html_css/"
+                        />
             </Cell>
             <Cell
                         col={4}
@@ -264,7 +285,10 @@ ShallowWrapper {
                 col={4}
                 tablet={6}
 >
-                <HtmlCssBlogCard />
+                <ProjectCard
+                                imagePath="html-css-blog.jpg"
+                                projectUrl="https://mohafizz.github.io/html_css/"
+                />
 </Cell>,
               <Cell
                 col={4}
@@ -288,7 +312,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "children": <HtmlCssBlogCard />,
+                "children": <ProjectCard
+                  imagePath="html-css-blog.jpg"
+                  projectUrl="https://mohafizz.github.io/html_css/"
+/>,
                 "col": 4,
                 "tablet": 6,
               },
@@ -297,7 +324,10 @@ ShallowWrapper {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "function",
-                "props": Object {},
+                "props": Object {
+                  "imagePath": "html-css-blog.jpg",
+                  "projectUrl": "https://mohafizz.github.io/html_css/",
+                },
                 "ref": null,
                 "rendered": null,
                 "type": [Function],

@@ -11,9 +11,11 @@ import { newSkillsData } from "../../utils/skillsData";
 import { oldSkillsData } from "../../utils/skillsData";
 import { Grid, Cell } from "react-mdl";
 
+// nice charts!
 const MySkillsRadarChart = () => (
   <div>
     <div style={{ width: "100%", margin: "auto" }}>
+      {/* the duplication in the 2 grids suggests to us that everything within a single Grid should be refactored into a single component. This would halve the size of this component. */}
       <Grid className="skills-grid">
         <Cell col={6}>
           <h3>My Past Skills</h3>
